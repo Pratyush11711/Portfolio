@@ -5,9 +5,9 @@ import { TypewriterEffectSmoothDemo } from "@/components/aboutui/about";
 
 export default function WavyBackgroundDemo() {
   return (
-    <div className='h-[100vh]'>
-<WavyBackground className='max-w-4xl mx-auto pb-40 h-[100vh]  overflow-hidden'>
-      <div className='mt-52 '>
+    <div className=''>
+<WavyBackground className=''>
+      <div className=' '>
      
       <div className="text-5xl flex justify-center font-bold">About Me</div>
       </div>
