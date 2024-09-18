@@ -5,9 +5,11 @@ import { TypewriterEffectSmoothDemo } from "@/components/aboutui/about";
 
 export default function WavyBackgroundDemo() {
   return (
-<WavyBackground className='max-w-4xl mx-auto pb-40'>
-      <div className='mt-20'>
-      <TypewriterEffectSmoothDemo/>
+    <div className='h-[100vh]'>
+<WavyBackground className='max-w-4xl mx-auto pb-40 h-[100vh]  overflow-hidden'>
+      <div className='mt-52 '>
+     
+      <div className="text-5xl flex justify-center font-bold">About Me</div>
       </div>
       <div className='text-white text-2xl flex flex-col justify-between items-start gap-y-7 mt-9 p-6'>
       <div className='text-white text-lg'>I am currently doing B.Tech from Vellore Institue of Technology 2nd year student doing web development as a side hustle and available for hiring.</div>
@@ -23,5 +25,6 @@ export default function WavyBackgroundDemo() {
 
       
       </WavyBackground>
+      </div>
   )
 }
