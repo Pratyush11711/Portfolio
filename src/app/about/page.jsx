@@ -1,15 +1,16 @@
 "use client";
 import React from "react";
 import { WavyBackground } from "../../components/ui/wavy-background";
-import { TypewriterEffectSmoothDemo } from "@/components/aboutui/about";
+import {TextGenerateEffectDemo} from '../../components/aboutUi/about'
 
 export default function WavyBackgroundDemo() {
+;
   return (
     <div className=''>
 <WavyBackground className=''>
-      <div className=' '>
-     
-      <div className="text-5xl flex justify-center font-bold">About Me</div>
+      <div className='mt-32 flex justify-center text-3xl md:text-5xl'>
+    <TextGenerateEffectDemo/>
+      {/* <div className="text-3xl md:text-5xl flex justify-center font-bold">About Me</div> */}
       </div>
       <div className='text-white text-2xl flex flex-col justify-between items-start gap-y-7 mt-9 p-6'>
       <div className='text-white text-lg'>I am currently doing B.Tech from Vellore Institue of Technology 2nd year student doing web development as a side hustle and available for hiring.</div>

@@ -5,7 +5,8 @@ import { LampContainer } from "../components/ui/lamp";
 
 export function LampDemo() {
   return (
-    (<LampContainer>
+    <div className="">
+    <LampContainer className="overflow-hidden">
       <motion.h1
         initial={{ opacity: 0.5, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -21,6 +22,6 @@ export function LampDemo() {
         <div className="text-lg">MERN Stack Developer</div>
       </motion.h1>
       
-    </LampContainer>)
+    </LampContainer></div>
   );
 }

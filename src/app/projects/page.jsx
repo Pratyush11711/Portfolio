@@ -4,7 +4,7 @@ import { HoverEffect } from "../../components/ui/card-hover-effect";
 export default function CardHoverEffectDemo() {
   return (
     <div>
-        <h1 className="flex justify-center mt-40 text-4xl font-bold">My Projects</h1>
+        <h1 className="flex justify-center mt-20 md:mt-40 text-4xl font-bold">My Projects</h1>
     <div className="max-w-5xl mx-auto px-8">
       <HoverEffect items={projects} />
     </div>
