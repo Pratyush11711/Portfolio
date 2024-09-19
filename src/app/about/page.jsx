@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { WavyBackground } from "../../components/ui/wavy-background";
-import {TextGenerateEffectDemo} from '../../components/aboutUi/about'
+import {TextGenerateEffectDemo} from "../../components/aboutui/about"
 
 export default function WavyBackgroundDemo() {
 ;
