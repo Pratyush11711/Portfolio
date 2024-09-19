@@ -5,8 +5,8 @@ import { LampContainer } from "../components/ui/lamp";
 
 export function LampDemo() {
   return (
-    <div className="">
-    <LampContainer className="overflow-hidden">
+    <div >
+    <LampContainer>
       <motion.h1
         initial={{ opacity: 0.5, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
